@@ -1,9 +1,19 @@
 
 const Nav = () => {
   return (
-    <div>
-      
-    </div>
+    <header>
+        <nav>
+            <img src="" alt="logo"/>
+            <ul>
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/cliente">Cliente</Link>
+                </li>
+            </ul>
+        </nav>
+    </header>
   )
 }
 
