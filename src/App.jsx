@@ -7,8 +7,7 @@ import Cliente from './routes/Cliente'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     // habilita a navegação por rotas
     <BrowserRouter>
