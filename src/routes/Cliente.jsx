@@ -22,15 +22,15 @@ const Cliente = () => {
 
   return (
       
-      <div>
+      <div className="bg-gray-900 text-white">
         <form>
-          <fieldset>
+          <fieldset className="flex-col">
             <legend>
               Dados Cliente
             </legend>
             <div>
               <label>Cep: </label>
-              <input
+              <input className="bg-white text-black"
                 type="text"
                 {...register("cep")}
                 onBlur={buscarCep}
@@ -38,35 +38,35 @@ const Cliente = () => {
             </div>
             <div>
               <label>Rua: </label>
-              <input
+              <input className="bg-white  text-black"
                 type="text"
                 {...register("rua")}
               />
             </div>
                 <div>
               <label>Bairro: </label>
-              <input
+              <input className="bg-white text-black"
                 type="text"
                 {...register("bairro")}
               />
             </div>
             <div>
               <label>Estado: </label>
-              <input
+              <input className="bg-white text-black"
                 type="text"
                 {...register("estado")}
               />
             </div>
             <div>
               <label>Cidade: </label>
-              <input
+              <input className="bg-white text-black"
                 type="text"
                 {...register("cidade")}
               />
             </div>
             <div>
               <label>Numero: </label>
-              <input
+              <input className="bg-white text-black"
                 type="text"
                 {...register("numero")}
               />
