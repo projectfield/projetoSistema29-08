@@ -1,4 +1,4 @@
-import imagem from '../assets/pngegg.png'
+import imagem from '../assets/chiodos.jpg'
 
 const Home = () => {
   return (
